@@ -53,6 +53,11 @@ h6{
     font-weight: bold;
 }
 
+.text_center{
+    text-align: center;
+    margin: auto;
+}
+
 #spacing{
     height: 20px;
 }

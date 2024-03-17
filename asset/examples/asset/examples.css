@@ -1,0 +1,21 @@
+#keret{
+    width: 75vw;
+    margin: auto;
+    padding: 20px;
+}
+
+hr{
+    margin-top: 50;
+    margin-bottom: 50;
+}
+
+.kicsinyites{
+    width: 60%;
+    margin: auto;
+}
+
+.vissza{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
