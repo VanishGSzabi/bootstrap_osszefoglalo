@@ -40,7 +40,15 @@ a,a:active,a:link,a:hover,a:visited{
     width: 100vw;
 }
 
+code{
+    color: blueviolet;
+}
+
 h1{
+    font-weight: bold;
+}
+
+h6{
     font-weight: bold;
 }
 
