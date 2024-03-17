@@ -6,9 +6,10 @@ body{
     margin: auto;
     margin-top: 20px;
     padding: 10px;
-    width: 40%;
+    width: 40vw;
     background-color: white;
 
+    font-size: 2vw;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

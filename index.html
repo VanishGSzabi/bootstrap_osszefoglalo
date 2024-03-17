@@ -30,7 +30,8 @@
                     <li id="tartalomjegyzek" class="list-group-item active" aria-current="true"><h3>Tartalomjegyzék</h3></li>
                     <a href="#bemutato"><li class="list-group-item">I. Bemutató és csatolás</li></a>
                     <a href="#szepites"><li class="list-group-item">II. Elemek szépítése</li></a>
-                    <a href="#keret"><li class="list-group-item">III. Keret és alkalmazása</li></a>
+                    <a href="#racsrendszer"><li class="list-group-item">III. Rácsrendszer és alkalmazása</li></a>
+                    <a href="#egyeb"><li class="list-group-item">IV. Egyéb előre elkészített elemek</li></a>
                   </ul>  
 
             </div>
@@ -165,25 +166,105 @@
 
             </div>
 
-        </div>
+            <h6 align="center">És még sok más HTML elem szépítése lehetséges</h6>
 
-        <h6 align="center">És még sok más HTML elem szépítése lehetséges</h6>
+        </div>
 
         <p id="spacing"></p>
 
+<!-- 3. sor -->
+        <div class="row">
+        <h1 id="racsrendszer">Reszponzív rácsrendszer</h1>
+
+            <div class="col-lg-4 col-xs-12 col-sm-12">
+                <h2>Mi ez?</h2>
+                <p>
+                    Ahogy az idők haladtak, kijelzők mérete is nőtt vagy csökkent, egy weboldalnak, hogy nézhető legyen, meg kellett oldania, hogy a kijelző méretéhez tudjon alkalmazkodni. <b>A Bootstrap-ben egy 3 részes keret alkalmazásával lehetséges ezt a reszponzivitást kivitelezni:</b>
+                </p>
+                <ul>
+                    <li>
+                        <code>container</code> -> keret, ami a "fő keretnek" van, ez a külső <code>div</code>
+                    </li>
+                    <li>
+                        <code>row</code> -> egy <code>container</code>-en belül elhelyezhető sorok, ez a középső <code>div</code>
+                    </li>
+                    <li>
+                        <code>col</code> -> a sorban <i>a következő ábrán</i> látható módon elhelyezhető keretek, ez a belső <code>div</code>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col-lg-4 col-xs-12 col-sm-12">
+                <h2>Rács felépítése</h2>
+                <img src="asset/container.webp" alt="Bootstrap rács felépítése"  title="Bootstrap rács felépítése" class="img-fluid">
+            </div>
+
+            <div class="col-lg-4 col-xs-12 col-sm-12">
+                <h2>Rács méretek</h2>
+                <h6>Kijelző szélességében mérve!</h6>
+                <ul>
+                    <li>
+                        <code>col-xs</code> -> legkisebb; apró kijelzős eszközöknél, <b>576 > x pixel</b>
+                    </li>
+                    <li>
+                        <code>col-sm</code> -> kis kijelzős eszközöknél, <b>768 > x > 576 pixel</b>
+                    </li>
+                    <li>
+                        <code>col-md</code> -> általában kisebb mobiltelefonoknál, <b>992 > x > 768 pixel</b>
+                    </li>
+                    <li>
+                        <code>col-lg</code> -> általános mobiltelefon kijelzőméret, <b>1200 > x > 992 pixel</b>
+                    </li>
+                    <li>
+                        <code>col-xl</code> -> legnagyobb; általános mainapi felbontás, <b>x > 1200 pixel</b>
+                    </li>
+                </ul>
+
+            </div>
+        
+        </div>
+
+        <p id="spacing"></p>
+
+<!-- 4. sor -->
+        <div class="row">
+            <h1 id="egyeb">Egyéb előre elkészített elemek</h1>
+    
+                <div class="col-lg-4 col-xs-12 col-sm-12">
+                    <h2>Kártyák</h2>
+                    <p>
+                        placeholder
+                    </p>
+    
+                </div>
+    
+                <div class="col-lg-4 col-xs-12 col-sm-12">
+                    <h2>Képlapozó</h2>
+                    <p>
+                        placeholder
+                    </p>
+
+                </div>
+    
+                <div class="col-lg-4 col-xs-12 col-sm-12">
+                    <h2>Placehodler</h2>
+                    <p>
+                        placeholder
+                    </p>
+    
+                </div>
+            
+            </div>
+
+            <p id="spacing"></p>
+
     </div>
 
-    <!-- 3. sor -->
-    <div class="row">
-        <h1 id="keret">Keret</h1>
-
-
-
-    </div>
 <div>
 </section>
 
-<footer id="lablec">
+<footer id="lablec"> <!-- lablec -->
     <h5>Készítette: Galambos Szabolcs</h5>
     <a href="https://getbootstrap.com/" target="_blank">A Bootrtrap weboldala</a>
 </footer>
