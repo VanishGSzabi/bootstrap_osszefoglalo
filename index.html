@@ -29,6 +29,7 @@
                 <ul class="list-group">
                     <li id="tartalomjegyzek" class="list-group-item active" aria-current="true"><h3>Tartalomjegyzék</h3></li>
                     <a href="#bemutato"><li class="list-group-item">I. Bemutató és csatolás</li></a>
+                    <a href="#szepites"><li class="list-group-item">II. Elemek szépítése</li></a>
                   </ul>  
 
             </div>
@@ -73,7 +74,10 @@
                         </ol>
                         </li>
                     </ol>
-                
+
+                    <p>
+                        <b>Néhány Bootstrap elemhez a jQuery JavaScript állomány is szükséges! Ez <a href="https://jquery.com/download/" target="_blank">itt</a> elérhető.</b>
+                    </p>
             </div>
 
         </div>
@@ -82,25 +86,50 @@
 
 <!-- 2. sor -->
         <div class="row">
-            <h1 id="beallitas">asd</h1>
+            <h1 id="szepites">Elemek szépítése</h1>
             
-            <div class="col-lg-2 col-xs-12 col-sm-12">
-                <h2>asd</h2>
-                <p>asd</p>
+            <div class="col-lg-4 col-xs-12 col-sm-12">
+                <h2>Táblázat</h2>
+                <p>A HTML táblázatokban a <code>table</code> - mint egész táblázat - és <code>tr</code> - mint a táblázat sorait - lehet "díszíteni" a Bootstrap által definiált osztályokkal.</p>
+                <h6>Table formázása</h6>
+                <ul>
+                    <b>
+                    <li>
+                        <code>class="table"</code> -> Bootstrap alap stílusa
+                    </li>
+                    </b>
+                    <li>
+                        <code>class="table-striped"</code> -> minden páratlan sor szürke háttérszínű
+                    </li>
+                    <li>
+                        <code>class="table-bordered"</code> -> hozzáad egy vékony szegélyt a táblázathoz
+                    </li>
+                    <li>
+                        <code>class="table-hover"</code> -> kurzorral rámenve a háttérszín szürke lesz
+                    </li>
+                    <li>
+                        <code>class="table-sm"</code> -> nincsen cellamargó
+                    </li>
+                </ul>
+
+                <a href="asset/examples/table.htm">Demonstráció + <code>tr</code> / <code>table</code> hátterek</a>
+
             </div>
 
-            <div class="col-lg-5 col-xs-12 col-sm-12">
-                <h2>asd</h2>
+            <div class="col-lg-4 col-xs-12 col-sm-12">
+                <h2>Képek</h2>
                 <p>
-                    asd
+                    A képek elhelyezésében, formázásában és méretezésében is segít a Bootstrap. Ismét, csak osztályokat kell hozzáadni egy meglévő képünkhöz és ennyi.
                 </p>
+
             </div>
 
-            <div class="col-lg-5 col-xs-12 col-sm-12">
-                <h2>asd</h2>
+            <div class="col-lg-4 col-xs-12 col-sm-12">
+                <h2>Gombok</h2>
                 <p>
                     asd    
                 </p>
+
             </div>
 
         </div>
